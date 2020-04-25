@@ -1,0 +1,27 @@
+body {
+    font-family: sans-serif;
+    padding: 30px;
+    background: lightsteelblue;
+    
+  }
+  
+  .message {
+    width: 400px;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #eee;
+    border-radius: 5px;
+  }
+  
+  .message.sent {
+    background-color: lightgreen;
+  }
+  
+  .message.received {
+    background-color: lightslategray;
+  }
+  
+  .message .message-time {
+    text-align: right;
+    font-size: 15px;
+  }
